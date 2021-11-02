@@ -71,13 +71,32 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 /* Hero Style End */
+
+/* Hero Text Style Start */
+.hero-cta {
+    text-align: right;
+    width: 60%;
+    position: absolute;
+    margin: 100px 40px 0 0;
+}
+
+.hero-cta h2 {
+    color: #fce138;
+    font-size:40px;
+    font-style: italic;
+}
+
+.hero-cta p {
+    color: white;
+}
+/*Hero Text Style End */
 
 /* Hero Form Style Start */
 .hero-form {
